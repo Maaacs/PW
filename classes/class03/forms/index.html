@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadados do programa -->
+    <meta charset="UTF-8">
+    <meta name="keywords" content="IComp, UFAM, Computação">
+    <meta name="description" content="Instituto de Computação">
+    <meta name="author" content="David Fernandes">
+    <meta http-equiv="refresh" content="600">
+    <title>Document</title>
+    <link rel = "stylesheet" href="style.css"/>
+</head>
+<!-- <body>
+    <form action="scriptServer.js" method="GET">
+        <input type="text" name=""login />
+        <button type="submit">OK</button>
+    </form>
+</body> -->
+<body>
+    <h1>Login</h1>
+<p>Por favor, informe seu login e senha: </p>
+<form id="login" method="POST" action="/user/login">
+    Login: <input type="text" name="nome" id="nome"/><br/>
+    Senha: <input type="password" name="senha" id="senha">
+    <input type="reset" value="Resetar Dados" />
+    <!-- <input type="text" value="João" name=""nome/>
+    <input type="submit" name="submit" value="Enviar" /> -->
+    <!-- <input type="submit" name="submit" value="Entrar" /> outra opção -->
+    <button type = "submit">Entrar</button>
+    <p>
+        <fieldset>
+        <legend> Curso </legend>
+        <input id="cc" type="radio" name="curso" value="cc">
+        <label for="cc">Ciência da Computação<br></label>
+        <!-- Ciência da Computação<br> -->
+        <input id="es" type="radio" name="curso" value="es">
+        <label for="es">Engenharia de Software<br></label>
+        <!-- Engenharia de Software<br> -->
+        <input id="ec" type="radio" name="curso" value="ec">
+        <label for="ec">Engenharia da Computação</label>
+        <!-- Engenharia da Computação -->
+        </fieldset>
+        <fieldset>
+            <legend>Linguagens</legend>       
+            <label for="java">Java</label>
+            <input type="checkbox" name="ling" id="java" value="java">
+            <label for="c">C</label>
+            <input type="checkbox" name="ling" id="c" value="c">
+            <label for="cpp">C++</label>
+            <input type="checkbox" name="ling" id="cpp" value="cpp">
+            <label for="perl">Perl</label>
+            <input type="checkbox" name="ling" id="perl" value="perl">
+            <label for="python">Python</label>
+            <input type="checkbox" name="ling" id="python" value="python">
+            <label for="js">Javascript</label>
+            <input type="checkbox" name="ling" id="js" value="js">
+        </fieldset>
+        <p>
+        <label for="nascimento">Data de Nascimento</label>
+        <input type="date" name="nascimento" id="nascimento">
+        </p>
+    </p>
+    <p>
+        <select name="area" id="area">
+            <option value="1">Banco de Dados</option>
+            <option value="2">Educação a Distância</option>
+            <option value="3">Engenharia de Software</option>
+            <option value="4">Otimização</option>
+            <option value="5">Programação para a Web</option>
+            <option value="6">Recuperação de Informação</option>
+            <option value="7">Redes de Computadores</option>
+            </select>
+    </p>
+    Mensagem<br><textarea 
+        name="mensagem" 
+        id=""
+        rows="4" cols="30">
+        Este é o valor padrão!
+    </textarea>
+</form>
+</body>
+
+</html>
