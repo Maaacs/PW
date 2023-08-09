@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+}
+
+.bloco{
+/*     border-width: 10px;
+    border-style: double;
+    border-color: blue;
+    border: 2px solid black */
+    border: 10px groove blueviolet;
+    border-radius: 5px;
+    border-top-left-radius: 40px;
+    /* border-radius: 5px 5px 5px 5px; */
+    padding: 20px;
+}
+
+body {
+    margin: 5;
+    padding: 5;
+    border-top: 1px solid rgb(38, 20, 232);
+}
