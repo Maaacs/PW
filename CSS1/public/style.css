@@ -1,0 +1,17 @@
+* {
+    margin: 2;
+}
+
+.bloco{
+    border: 10px solid #010101;
+    border-radius: 20px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+body {
+    margin: 5;
+    padding: 5;
+}
