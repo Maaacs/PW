@@ -1,4 +1,18 @@
+/* style.css */
 
-#time {
-    font-size: 32px;
+
+.gray-text-input {
+    color: gray;
+  }
+
+  
+/* .gray-text-input::placeholder {
+    color: gray;
 }
+   */
+
+.tamanho-caixa {
+    width: 50px;
+    height: 15px;
+  }
+  

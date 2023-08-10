@@ -8,7 +8,7 @@
     <meta name="author" content="David Fernandes">
     <meta http-equiv="refresh" content="600">
     <title>Instituto de Computação</title>
-    <link rel = "stylesheet" href="style.css"/>
+    <link rel = "stylesheet" href="public/style.css"/>
 </head>
 
 <body>
@@ -17,8 +17,9 @@
         <legend> Dados Básicos </legend>
         <form id="login" method="POST" action="/user/login">
             Nome <input type="text" name="nome" id="nome"/><br/>
-            E-mail <input type="text" name="nome" id="nome"/><br/>
-            Website <input type="text" value="https://" name="nome" id="nome"/><br/>
+            E-mail <input type="text" name="email" id="email" value= "seunome@dominio.com.br" class="gray-text-input" /><br/>
+            <!-- E-mail <input type="text" name="email" id="email" class="gray-text-input" placeholder="seunome@dominio.com.br"/><br/> -->
+            Website <input type="text" value="https://" name="nome" id="email"/><br/>
     </fieldset>
 
     <fieldset>
@@ -48,11 +49,21 @@
         <label for="js">Javascript</label>
         <input type="checkbox" name="ling" id="js" value="js">
     </fieldset>
+
     <fieldset>
-        <legend>Dados complementares</legend>       
+
+        <legend>Dados complementares</legend>
+        <label for="cor">Cor favorita</label>
+        <input type="color" name="cor" id="cor"><br>       
         <label for="nascimento">Data de Nascimento</label>
-        <input type="date" name="nascimento" id="nascimento">
+        <input type="date" name="nascimento" id="nascimento"><br>
+        <label for="ano">Ano de entrada em seu curso do IComp</label>
+        <input type="text" id="ano" name="ano" class="tamanho-caixa"><br>
+        <label for="slider">Nota para este site</label>
+        <input type="range" id="slider" name="slider" min="0" max="100" value="0" class="volume-slider">
+        <script src="public/script.js"></script>
     </fieldset>
+
     <fieldset>
         <legend>Área de atuação</legend>       
         <select name="area" id="area">
@@ -65,26 +76,24 @@
             <option value="7">Redes de Computadores</option>
         </select>
     </fieldset>
+
+    <fieldset>
+        <legend>Arquivo</legend>       
+        <label for="avatar">Choose file:</label>
+        <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+    </fieldset>
+
     <fieldset>
         <legend>Escreva sua mensagem</legend>       
-        <textarea 
-            name="mensagem" 
-            id=""
-            rows="4" cols="40">
+        <textarea name="mensagem" rows="4" cols="40">
             Este é o valor padrão!
         </textarea>
     </fieldset>
-    <fieldset>
-    <legend>Arquivo</legend>       
-    <label for="avatar">Choose file:</label>
-    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
-    </fieldset>
+    <p>
+        <input type="reset" value="Resetar Dados" />
+        <button type = "submit">Enviar Mensagem</button>
+    </p>
 
-    <input type="reset" value="Resetar Dados" />
-    <!-- <input type="text" value="João" name=""nome/>
-    <input type="submit" name="submit" value="Enviar" /> -->
-    <!-- <input type="submit" name="submit" value="Entrar" /> outra opção -->
-    <button type = "submit">Enviar Mensagem</button>
 
 </form>
 </body>
