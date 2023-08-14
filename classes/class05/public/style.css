@@ -1,0 +1,32 @@
+* {
+    margin: 2;
+}
+
+.bloco{
+    background-color: cornflowerblue;
+    /*background-image: ;*/
+    background-size: 20px;
+    background-repeat: no-repeat;
+    /*background-position: ;*/
+
+    /*box-shadow: 2px 2px;
+    box-shadow: -4px 4px 4px 0px gray;*/
+    box-shadow: -4px 4px 4px 0px rgb(134, 13, 200) inset, -4px 4px 4px 0px rgb(33, 161, 215);
+    border: 2px solid #000000;
+    padding: 8px;
+    margin: 16px;
+    /*margin: 40px 20px 40px 20px;
+    border-radius: 20px; -->
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    padding: 20px;
+    padding-left: 40px; */
+
+    
+}
+
+
+/*body {
+    margin: 5;
+    padding: 5;
+}*/
