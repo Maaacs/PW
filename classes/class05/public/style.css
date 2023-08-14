@@ -3,9 +3,12 @@
 }
 
 .bloco{
+    width: 150px;
+    height: 150px;
+    overflow: auto;
     background-color: cornflowerblue;
-    /*background-image: ;*/
-    background-size: 20px;
+    background-image:url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fuxwing.com%2Fcss-icon%2F&psig=AOvVaw2WjoJLPMoibiWhgATcTOU6&ust=1692104934156000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIC8r5-c3IADFQAAAAAdAAAAABAD);
+    background-size: 5px;
     background-repeat: no-repeat;
     /*background-position: ;*/
 
