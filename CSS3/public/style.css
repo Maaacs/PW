@@ -1,0 +1,55 @@
+.blue {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black;
+    order: 1;
+
+}
+
+.yellow {
+    order: 2;
+    justify-content:flex-end;
+    position: relative;
+
+}
+
+.red {
+    display: flex;
+    height: 200px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black;
+    order: 3;
+
+}
+
+.green {
+    display: flex;
+    height: 200px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid black;
+
+}
+
+.bloco div {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 160px;
+    background-color: aquamarine;
+    margin: 8px;
+    order: 2;
+}
+
+.bloco .i1{
+    order: 1;
+    flex-grow: 3;
+    flex-shrink: 1;
+}
