@@ -1,3 +1,3 @@
-# infos
+# INFOS
 
-Nessa versão podemos rodar no index.html e acessar no navegador passando o caminho do arquivo com ":"
+Nessa versão podemos rodar o programa acessando no navegador o path do index.html
