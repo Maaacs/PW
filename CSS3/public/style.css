@@ -1,55 +1,32 @@
 .blue {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    border: 10px solid black;
-    order: 1;
-
+    width: 100px;
+    height: 200px;
+    background-color: blue;
+    float: left;
 }
 
 .yellow {
-    order: 2;
-    justify-content:flex-end;
-    position: relative;
-
+    width: 100px;
+    height: 150px;
+    background-color: yellow;
+    position: relative; 
+    left: 100px; 
 }
 
 .red {
-    display: flex;
-    height: 200px;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    border: 10px solid black;
-    order: 3;
-
+    width: 100px;
+    height: 150px;
+    background-color: red;
+    position: relative; 
+    left: 200px; 
+    bottom: 150px;
 }
 
 .green {
-    display: flex;
-    height: 200px;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    border: 10px solid black;
-
-}
-
-.bloco div {
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 160px;
-    background-color: aquamarine;
-    margin: 8px;
-    order: 2;
-}
-
-.bloco .i1{
-    order: 1;
-    flex-grow: 3;
-    flex-shrink: 1;
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    position: relative; 
+    left: 100px; 
+    bottom: 150px;
 }
