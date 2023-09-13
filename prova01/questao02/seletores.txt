@@ -1,0 +1,14 @@
+Nesse caso, podemos usar:
+
+- "span"
+Seletor que seleciona todos os elementos span, independentemente de seu contexto.
+
+- "p span"
+Esse seletor combina um seletor de tipo com um seletor descendente. Ele seleciona todos os elementos span
+ que são filhos diretos de um elemento p. Nessa questão, por exemplo, há apenas um elemento span que é filho 
+ direto de um elemento p, então, esse seletor irá selecionar apenas ele.
+
+- "span.cl1"
+o span.cl1 combina um seletor de tipo com um seletor de classe. 
+Ele seleciona todos os elementos span que possuem a classe "cl1". 
+Como há apenas um elemento span que possui a classe "cl1", ele irá selecionar apenas ele.

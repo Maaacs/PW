@@ -1,0 +1,7 @@
+No JavaScript, == compara valores, mas não compara os tipos. Após a comparação, retorna verdadeiro se eles são
+iguais. Por exemplo, 1 == '1' retorna verdadeiro porque ‘1’ é convertido em número antes da
+comparação.
+Enquanto === é o operador de igualdade estrita. Ele verifica se os valores dos dois lados são
+iguais, e também verifica se os tipos dos valores são iguais. Se os tipos forem diferentes, ele não
+tentará converter os valores. Ele simplesmente retornará falso. Por exemplo, 1 === '1' retornará
+falso porque um é número e o outro é string.
