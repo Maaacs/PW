@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <meta name="author" content="Max Souza">
+    <meta http-equiv="refresh" content="600">
+    <title>Alerta ao Clicar</title>
+</head>
+<body>
+    <button id="meuBotao">Clique-me!</button>
+
+    <script>
+        // Seleciona o botão pelo ID
+        const botao = document.getElementById("meuBotao");
+
+        // Adiciona um ouvinte de evento para o evento "click"
+        botao.addEventListener("click", function() {
+            // Exibe uma caixa de alerta com o texto "Botão Pressionado"
+            window.alert("Botão Pressionado");
+        });
+    </script>
+</body>
+</html>
