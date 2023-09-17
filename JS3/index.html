@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aplicação IntegerSet</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <script>
+        let conjuntoA = new IntegerSet(10);
+        conjuntoA.insert(1);
+        conjuntoA.insert(3);
+        conjuntoA.insert(5);
+        conjuntoA.insert(6);
+        conjuntoA.insert(9);
+
+        let conjuntoB = new IntegerSet(10);
+        conjuntoB.insert(2);
+        conjuntoB.insert(3);
+        conjuntoB.insert(4);
+        conjuntoB.insert(7);
+        conjuntoB.insert(8);
+
+        console.log("Conjunto A: " + conjuntoA.toString());
+        console.log("Conjunto B: " + conjuntoB.toString());
+
+        let uniaoAB = conjuntoA.union(conjuntoB);
+        console.log("União de A e B: " + uniaoAB.toString());
+
+        let intersecaoAB = conjuntoA.intersection(conjuntoB);
+        console.log("Interseção de A e B: " + intersecaoAB.toString());
+
+        let diferencaAB = conjuntoA.difference(conjuntoB);
+        console.log("Diferença de A e B: " + diferencaAB.toString());
+    </script>
+</body>
+</html>
