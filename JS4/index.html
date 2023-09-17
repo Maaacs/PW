@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora Círculo</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <div>
+        <label>Informe o raio:</label>
+        <input id="radius" type="number" min="0">
+        <button onclick="updateProperties()">OK</button>
+    </div>
+    <div>
+        <label>Área do círculo:</label>
+        <input id="area" type="text" readonly>
+    </div>
+    <div>
+        <label>Circunferência:</label>
+        <input id="circumference" type="text" readonly>
+    </div>
+
+    <script>
+        function updateProperties() {
+            const radius = document.getElementById('radius').value;
+            const { area, circumference } = calculateCircleProperties(radius);
+            document.getElementById('area').value = area.toFixed(2);
+            document.getElementById('circumference').value = circumference.toFixed(2);
+        }
+    </script>
+</body>
+</html>
