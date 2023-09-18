@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "isprime": "^0.0.2",
+    "just-is-prime": "^2.3.0"
+  }
+}
