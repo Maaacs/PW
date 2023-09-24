@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  <title>Gráfico de Barras</title>
+</head>
+<body>
+  <h1>Gráfico de Barras</h1>
+  <form name="newForm">
+    <div class="input-container">
+      <label>Informe a altura das barras:</label>
+      <div class="input-barras">
+        <input type="number" class="bar-input">
+        <input type="number" class="bar-input">
+        <input type="number" class="bar-input">
+        <input type="number" class="bar-input">
+        <input type="number" class="bar-input">
+      </div>
+    </div>
+
+    <div>
+      <label for="largura">Informe a largura das barras:</label>
+      <input type="number" id="largura">
+    </div>
+
+    <input type="button" value="Desenhar o gráfico" onclick="printGraph()">
+  </form>
+  <div class="result">
+    <div class="graph"></div>
+    <div class="graph"></div>
+    <div class="graph"></div>
+    <div class="graph"></div>
+    <div class="graph"></div>
+  </div>
+</body>
+</html>
