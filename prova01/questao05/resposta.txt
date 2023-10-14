@@ -1,3 +1,6 @@
+Explicação correta
+Nota: 2.0
+
 No JavaScript, == compara valores, mas não compara os tipos. Após a comparação, retorna verdadeiro se eles são
 iguais. Por exemplo, 1 == '1' retorna verdadeiro porque ‘1’ é convertido em número antes da
 comparação.
