@@ -8,7 +8,7 @@ const gameController = require ("../controllers/game")
 
 router.get("/", mainController.index);
 router.get("/sobre", mainController.sobre);
-router.get("/imagem", mainController.imagem);
+router.get("/ui", mainController.ui);
 router.get("/areas", areaController.index);
 router.get("/game", gameController.game);
 

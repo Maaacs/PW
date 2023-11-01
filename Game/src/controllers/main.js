@@ -13,11 +13,11 @@ const sobre = (req, res) => {
     })
 }
 
-const imagem = (req, res) => {
-    res.render("main/imagem", {
+const ui = (req, res) => {
+    res.render("main/ui", {
         imagem: true,
         titulo: "Xadrez",
     })
 }
 
-module.exports = {index, sobre, imagem}
+module.exports = {index, sobre, ui}
