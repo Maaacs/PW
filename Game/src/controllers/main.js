@@ -1,33 +1,23 @@
 const index = (req, res) => {
-    const profs = [
-        {nome: "Davi Fernandes", sala: 1238},
-    ]
-    res.render("index", {
+    res.render("main/index", {
         showNome: true,
-        nome: "Maria Eduarda",
-        layout: false
+        nome: "Página inicial",
+        titulo: "O jogo do TRex",
     })
 }
 
 
 const sobre = (req, res) => {
-    res.render("sobre", {
-        about: true,
-        titulo: "O jogo de Xadrez",
-        conteudo: "O xadrez é um jogo  de tabuleiro",
-        layout: false
+    res.render("main/sobre", {
+        titulo: "O jogo do TRex",  
     })
-
 }
 
 const imagem = (req, res) => {
-    res.render("imagem", {
+    res.render("main/imagem", {
         imagem: true,
         titulo: "Xadrez",
-        layout: false
     })
-
 }
-
 
 module.exports = {index, sobre, imagem}
