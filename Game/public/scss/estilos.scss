@@ -1,9 +1,32 @@
-$color: #70cb9e;
-
 h2 {
-    color: $color;
+    color: $blue;
 }
 
 h1 {
-    color: red;
+    color: $white;
+}
+
+.center {
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title {
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
