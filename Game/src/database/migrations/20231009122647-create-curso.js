@@ -18,6 +18,9 @@ module.exports = {
       descricao: {
         type: Sequelize.TEXT
       },
+      areaId: {
+        type: Sequelize.INTEGER
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

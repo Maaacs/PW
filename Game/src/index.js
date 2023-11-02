@@ -35,7 +35,7 @@ app.use(logger("complete"))
 app.use(express.urlencoded({ extended: false}))
 app.use("/img", express.static(`${__dirname}/../public/img`))
 app.use("/css", express.static(`${__dirname}/../public/css`))
-app.use("/webfonts", express.static(`${__dirname}/../public/css`))
+app.use("/webfonts", express.static(`${__dirname}/../node_modules/@fortawesome/fontawesome-free/webfonts`))
 app.use('/js', [
     express.static(`${__dirname}/../public/js`),
     express.static(`${__dirname}/../node_modules/bootstrap/dist/js/`)

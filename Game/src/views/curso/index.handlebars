@@ -1,5 +1,50 @@
-<ul>
+<div class="cursos">
+    <h1>Cursos</h1>
+    <ul>
+        {{#each cursos}}
+        <li><a href="/curso/read/{{id}}">{{nome}}</a></li>
+        {{/each}}
+    </ul>
+</div>
+
+
+
+{{!-- <div>
+    <h1>Cursos</h1>
     {{#each cursos}}
-    <li><a href="/curso/read/{{id}}">{{nome}}</a></li>
+    <!-- Cada área e seus botões ficam dentro de uma div com a classe area -->
+    <div class="cursos">
+        <!-- O nome da área fica dentro de um span -->
+        <li><a href="/curso/read/{{id}}">{{nome}}</a></li>
+        <!-- Os botões ficam dentro de links com a classe btn -->
+        <a href="#" class="btn buttonviewereadremove"><i class="fa-solid fa-eye"></i></a>
+        <a href="#" class="btn"><i class="fa-solid fa-pen-to-square"></i></a>
+        <a href="#" class="btn"><i class="fa-solid fa-trash"></i></a>
+    </div>
     {{/each}}
-</ul>
+</div> --}}
+
+
+<footer id="footer">
+    <div class="row">
+        <div class="col-lg-12">
+            <ul class="list-unstyled custom-list-rodape">
+                <li class="float-end">
+                <li><a href="https://blog.bootswatch.com/">Blog</a></li>
+                <li><a href="https://blog.bootswatch.com/rss/">RSS</a></li>
+                <li><a href="https://twitter.com/bootswatch">Twitter</a></li>
+                <li><a href="https://github.com/thomaspark/bootswatch">GitHub</a></li>
+                <li><a href="../help/#api">API</a></li>
+                <li><a href="../help/#donate">Donate</a></li>
+            </ul>
+            <p>Made by <a href="https://thomaspark.co/">Thomas Park</a>.</p>
+            <p>Code released under the <a
+                    href="https://github.com/thomaspark/bootswatch/blob/master/LICENSE">MIT
+                    License</a>.</p>
+            <p>Based on <a href="https://getbootstrap.com/" rel="nofollow">Bootstrap</a>.
+                Icons from <a href="https://icons.getbootstrap.com/"
+                    rel="nofollow">Bootstrap Icons</a>. Web fonts from <a
+                    href="https://fonts.google.com/" rel="nofollow">Google</a>.</p>
+        </div>
+    </div>
+</footer>

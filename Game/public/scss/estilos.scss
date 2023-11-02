@@ -13,8 +13,8 @@ h1 {
     transform: translateX(-50%);
 }
 
-.title {
-    padding-top: 20px;
+.titleSobre {
+    padding-top: 100px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -27,23 +27,114 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 10%;
-    padding-right: 10%;
+
+    max-width: 1033px;
+    margin: 0 auto;
 }
+
+.navbar{
+    padding-left: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trex-game-with-icon{
+    padding-left: 0px;
+}
+
+.menus{
+    padding-left: 1000px;
+}
+
 
 
 .container-com-fundo-branco {
     background-color: white;
     height: 100vh;
+    overflow: hidden;
 }
-  
+
+
+footer {
+    display: block;
+    width: 100%;
+    position: static;
+    bottom: 0;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+
+.forms-width{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 900px;
+}
+
+.navbar-brand{
+    padding-left: 8px;
+}
+
+
+.buttonviewereadremove{
+    margin-left: 100px;
+    vertical-align: middle;
+}
+
+.areas {
+    padding-top: 140px;
+    padding-left: 60px;
+}
+
+.cursos {
+    padding-top: 140px;
+    padding-left: 60px;
+}
+
+
+.pagina{
+    margin-bottom: 9000px;
+}
+
+.card {
+    margin-top: 140px;
+    margin-left: 60px;
+    
+}
+
+.btn {
+    display: inline-block; 
+    text-decoration: none; 
+    padding: 5px 10px; 
+    border: 1px solid #ccc; 
+    background-color: #f2f2f2; 
+    color: #333; 
+    font: 15px arial, sans-serif; 
+    margin-top: 10px;
+}
+
+.custom-list-rodape {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 12px;
+}
+
+.custom-list-rodape > li:first-child {
+    margin-left: -12px; 
+}
+
 
 
 
 // Dino
 .telagame {
   //  background-color: white;
-    padding-top: 500px;
+    padding-top: 310px;
 }
 
 .deserto {
@@ -176,9 +267,10 @@ h1 {
     background-image: url(../img/sprite.png);
     background-position:-970px -21px;
     position: absolute;
-    width: 286px;
     height: 18px;
-
+    width: 286px;
+    
+    top: 270px;
     margin: auto;
     z-index: 3;
     display: none;
@@ -190,7 +282,8 @@ h1 {
     position: absolute;
     height: 46px;
     width: 51px;
-    top: 210px;
+
+    top: 310px;
     margin: auto;
     z-index: 3;
     display: none;
