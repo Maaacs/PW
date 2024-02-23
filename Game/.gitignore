@@ -1,6 +1,6 @@
-- node_modules
-- package-lock.json
-- .env
-- database.json
-- mysql
-- docker-compose.yml
+node_modules
+package-lock.json
+mysql
+# - database.json
+#- docker-compose.yml
+#- .env
