@@ -29,11 +29,11 @@ npx sequelize db:migrate:undo (remove a ultima coluna adicionada)
 
 docker-compose
 criou arquivo docker-compose.yml com os serviços de banco de dados
-docker-compose up -d db-mysql para subir os conteiners
+docker compose up -d db-mysql para subir os conteiners
 banco de dados pronto
 verificar com sudo docker ps
 npx sequelize db:migrate
 npx sequelize-cli db:seed:all
 
-docker-compose down para desligar o serviço
+docker compose down para desligar o serviço
 
