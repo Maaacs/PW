@@ -6,7 +6,8 @@ const cursoController = require ("../controllers/curso")
 const gameController = require ("../controllers/game")
 
 
-router.get("/", mainController.index);
+/*router.get("/", mainController.index);*/
+router.get("/", gameController.game);
 router.get("/sobre", mainController.sobre);
 router.get("/ui", mainController.ui);
 router.get("/areas", areaController.index);
